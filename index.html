@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Design.MO</title>
@@ -20,6 +21,7 @@
             return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e
         };
         supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+
     </script>
 
 </head>
@@ -106,7 +108,7 @@
             <p class="content__text" data-scroll data-scroll-speed="2">The human world is exploding at the seams. Human creativity and the implementation of human inventions and technology is now at an accelerated fever pitch like nothing ever before seen in the history of the world. Well, where is it leading, and how does one integrate this stuff into one’s own life? What does it mean about the experience of being human? I have proposed the existence of an invisible, permeating <em>Something</em> that is throughout all being, all time, all space, all bodies, all thought, which I call <em>Novelty</em>; and the interesting thing about novelty is that it’s increasing constantly. </p>
         </section>
 
-        <!--			separators sections    --------->
+        <!--		EXPERIMENT	separators sections    --------->
 
 
 
@@ -114,8 +116,13 @@
 
 
 
-<!--        <section class="tiles" id="grid">-->
+        <!--		EXPERIMENT	separators sections    --------->
+
+
+
+        <!--        <section class="tiles" id="grid">-->
         <section class="tiles tiles--oneline" id="grid">
+            <div class="tiles__wrap">
                 <div class="tiles__line" data-scroll data-scroll-speed="2" data-scroll-target="#grid" data-scroll-direction="horizontal">
                     <div class="tiles__line-img" style="background-image:url(src/img/demo1/30.jpg)"></div>
                     <div class="tiles__line-img" style="background-image:url(src/img/demo1/29.jpg)"></div>
@@ -124,11 +131,13 @@
                     <div class="tiles__line-img" style="background-image:url(src/img/demo1/26.jpg)"></div>
                     <div class="tiles__line-img" style="background-image:url(src/img/demo1/25.jpg)"></div>
                     <div class="tiles__line-img" style="background-image:url(src/img/demo1/25.jpg)"></div>
-                    <h2 class="tiles__title tiles__title--right tiles__title--full tiles__title--alt" data-scroll data-scroll-speed="2">3D Concept Art</h2>
                 </div>
-                </section>
-                
-                <section class="tiles tiles--oneline" id="grid">   
+            </div>
+            <h2 class="tiles__title tiles__title--right tiles__title--full tiles__title--alt" data-scroll data-scroll-speed="2">3D Concept Art</h2>
+        </section>
+
+        <section class="tiles tiles--oneline" id="grid">
+            <div class="tiles__wrap">
                 <div class="tiles__line " data-scroll data-scroll-speed="1" data-scroll-target="#grid" data-scroll-direction="horizontal">
                     <div class="tiles__line-img" style="background-image:url(src/img/demo1/24.jpg)"></div>
                     <div class="tiles__line-img" style="background-image:url(src/img/demo1/23.jpg)"></div>
@@ -137,10 +146,13 @@
                     <div class="tiles__line-img" style="background-image:url(src/img/demo1/18.jpg)"></div>
                     <div class="tiles__line-img" style="background-image:url(src/img/demo1/17.jpg)"></div>
                     <div class="tiles__line-img" style="background-image:url(src/img/demo1/17.jpg)"></div>
-                    <h2 class="tiles__title tiles__title--left tiles__title--full tiles__title--alt" data-scroll data-scroll-speed="1">Graphic Design</h2>
-                    </div></section>
-                
-                <section class="tiles tiles--oneline" id="grid">
+                </div>
+            </div>
+            <h2 class="tiles__title tiles__title--left tiles__title--full tiles__title--alt" data-scroll data-scroll-speed="1">Graphic Design</h2>
+        </section>
+
+        <section class="tiles tiles--oneline" id="grid">
+            <div class="tiles__wrap">
                 <div class="tiles__line " data-scroll data-scroll-speed="2" data-scroll-target="#grid" data-scroll-direction="horizontal">
                     <div class="tiles__line-img" style="background-image:url(src/img/demo1/16.jpg)"></div>
                     <div class="tiles__line-img" style="background-image:url(src/img/demo1/15.jpg)"></div>
@@ -149,8 +161,9 @@
                     <div class="tiles__line-img" style="background-image:url(src/img/demo1/12.jpg)"></div>
                     <div class="tiles__line-img" style="background-image:url(src/img/demo1/11.jpg)"></div>
                     <div class="tiles__line-img" style="background-image:url(src/img/demo1/11.jpg)"></div>
-                    <h2 class="tiles__title tiles__title--right tiles__title--full tiles__title--alt" data-scroll data-scroll-speed="2">Photography</h2>
                 </div>
+            </div>
+            <h2 class="tiles__title tiles__title--right tiles__title--full tiles__title--alt" data-scroll data-scroll-speed="2">Photography</h2>
         </section>
 
 
@@ -226,4 +239,6 @@
     </main>
     <script src="src/js/javasumthing.js"></script>
     <script src="src/js/index.js"></script>
-</body></html>
+</body>
+
+</html>
