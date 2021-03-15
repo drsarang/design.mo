@@ -136,6 +136,10 @@ main {
     justify-content: left;
 }
 
+.designer{
+    font-family: playfair;
+    
+}
 
 .footer {
 	padding: 3rem;
@@ -171,13 +175,14 @@ main {
 }
 
 .content__pretitle {
+    padding: 7px;
 	margin-top: 50px;
 	font-size: 1.85rem;
 	color: var(--color-alt);
 }
 
 .content__pretitle::before {
-	/* content: "\2015"; */
+/*	 content: "\2015"; */
 	margin-right: 0.25rem;
 }
 
@@ -410,7 +415,8 @@ main {
 
 .tiles__title--alt {
 	font-size: 9vw;
-	font-size: clamp(2rem, 9vw, 7.25rem);
+    font-size: 4em;
+/*	font-size: clamp(2rem, 9vw, 7.25rem);*/
 }
 
 .tiles__title--intro {
