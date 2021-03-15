@@ -137,7 +137,20 @@ main {
 }
 
 
+.footer {
+	padding: 3rem;
+	min-height: 30vh;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-between;
+}
 
+.footer-text>a{
+    color: #7f6a57;
+    
+}
 
 /* -----------custom end-------- */
 
@@ -419,18 +432,19 @@ main {
 }
 
 .backtop {
-	align-self: center;
+	align-self:flex-end;
 	margin: auto 0;
-	font-size: 6vw;
+	font-size: 2vw;
 	cursor: pointer;
 	text-decoration: none;
 }
 
 .backtop::after {
 	content: "\2934";
-	font-size: 3vw;
-	vertical-align: top;
-	margin-left: 1rem;
+	font-size: 2vw;
+    color: #7f6a57;
+/*	vertical-align: top;*/
+/*	margin-left: 2rem;*/
 }
 
 /*! locomotive-scroll v3.5.4 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
